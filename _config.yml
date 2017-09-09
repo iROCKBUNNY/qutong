@@ -4,15 +4,17 @@ repository: https://github.com/iROCKBUNNY/qutong
 
 timezone: Asia/Shanghai
 
-name: Tong QU
-author: iROCKBUNNY
-author_url: http://irockbunny.com
-organization: TEELAB
-organization_url: http://teelab.net
+title: Tong QU
 description: All About Tong QU
 keywords: Tong QU, Homepage
 url: http://qutong.me
 
+author: iROCKBUNNY
+author_url: http://irockbunny.com
+organization: TEELAB
+organization_url: http://teelab.net
+
+image: /img/Avatar-4.png
 logo: /img/Avatar-4.png
 
 plugins:
