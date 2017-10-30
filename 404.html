@@ -6,31 +6,15 @@ permalink: /404.html
 sitemap: false
 ---
 
-<div class="bs-docs-header" id="content">
+<main class="irb-main" id="content" role="main">
   <div class="container">
-    <h1>404</h1>
-    <p>Page Not Found</p>
-  </div>
-</div>
-
-<div class="container bs-docs-container">
-  <div class="row">
-    <!-- Main contents -->
-    <div class="col-md-9" role="main">
-      <div class="bs-docs-section">
-        <h1 id="page-not-found" class="page-header">404</h1>
-        <p>啊咧？页面不存在喏！(>_<)</p>
-        <a href="{{ '/' | relative_url }}" class="btn btn-outline" role="button"><i class="fa fa-arrow-left fa-fw" aria-hidden="true"></i>回到首页</a>
-      </div>
+    <div class="irb-avatar">
+      <img src="{{ site.logo }}" alt="Avatar" class="img-circle img-thumbnail">
     </div>
-    <!-- Sidebar nav-->
-    <div class="col-md-3">
-      <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
-        <ul class="nav bs-docs-sidenav">
-          <li><a href="#page-not-found">404</a></li>
-        </ul>
-        <a class="back-to-top" href="#top">Back to Top</a>
-      </div>
+    <div class="irb-name">
+      <h1>..:: 404 ::..</h1>
+      <p class="lead" id="about">Page Not Found</p>
+      <p class="text-muted" id="contact"><i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>{{ site.contact }}</p>
     </div>
   </div>
-</div>
+</main>

@@ -14,8 +14,11 @@ author_url: http://irockbunny.com
 organization: TEELAB
 organization_url: http://teelab.net
 
-image: /img/Avatar-4.png
-logo: /img/Avatar-4.png
+contact: hello[at]qutong[dot]me
+github: https://github.com/iROCKBUNNY
+
+image: /img/Avatar.jpg
+logo: /img/Avatar-2.jpg
 
 plugins:
 - jekyll-seo-tag

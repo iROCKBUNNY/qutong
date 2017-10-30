@@ -3,16 +3,15 @@ layout: default
 home: true
 ---
 
-<main class="bs-docs-masthead" id="content" role="main">
+<main class="irb-main" id="content" role="main">
   <div class="container">
-    <div class="avatar">
-      <img src="{{ 'img/Avatar-4.jpg' | relative_url }}" alt="Avatar" class="img-circle img-thumbnail">
+    <div class="irb-avatar">
+      <img src="{{ site.logo }}" alt="Avatar" class="img-circle img-thumbnail">
     </div>
-    <div class="qutong-name">
+    <div class="irb-name">
       <h1>{{ site.title }}</h1>
+      <p class="lead"><a href="http://about.qutong.me/" target="_blank" class="btn btn-default btn-lg" role="button"><i class="fa fa-globe fa-fw" aria-hidden="true"></i>Visit about.qutong.me</a></p>
+      <p class="text-muted" id="contact"><i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>{{ site.contact }}</p>
     </div>
-    <p class="lead">Researcher &middot; Programmer &middot; Designer</p>
-    <p class="lead"><a href="http://about.qutong.me/" target="_blank" class="btn btn-outline-inverse btn-lg" role="button"><i class="fa fa-globe fa-fw" aria-hidden="true"></i>Visit about.qutong.me</a></p>
-    <p class="version">{{ site.description }}</p>
   </div>
 </main>
